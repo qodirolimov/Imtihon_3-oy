@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./styles/normalize.css">
+   <link rel="stylesheet" href="./styles/style.css">
+   <title>Document</title>
+</head>
+<body class="body">
+
+
+   <header>
+      <div class="container">
+         <nav class="nav" id="nav">
+            <h2 class="nav-logo">
+               PIZZA-UZ
+            </h2>
+            <select id="select2" class="select_second">
+               <option value="birinchi_ranglar">birinchi_ranglar</option>
+               <option value="ikkinchi_ranglar">ikkinchi_ranglar</option>
+            </select>
+         </nav>
+      </div>
+   </header>
+
+   <main>
+      <div class="main_container">
+         <h1 class="main_title">Pitsa buyurtma qilish</h1>
+         <div class="wrap_first">
+
+            <div class="wrap_second">
+               <h2 class="wrap_second_title_first"> Noni qanday bo'lsin ?</h2>
+               <select id="select" class="select">
+                  <option value="qanday">Tanlang</option>
+                  <option value="yupqa">Yupqa</option>
+                  <option value="o'rtacha">O'rtacha</option>
+                  <option value="qalin">Qalin</option>
+               </select>
+
+               <h2 class="wrap_second_title_second">Kattaligi</h2>
+
+               <div class="circle_first">25cm</div>
+               <div class="circle_second">30cm</div>
+               <div class="circle_third">35cm</div>
+               <h3 class="wrap_second_title_third">Tarkibi nimalardan iborat ?</h3>
+
+
+
+               <input type="checkbox" name="checkbox" id="checkbox1" class="checkbox1" onclick="isChecked1()"
+                  id="checkboxall">
+               <p class="wrap_second_text_first">Pomidor</p>
+               <input type="checkbox" name="checkbox" id="checkbox2" class="checkbox2" id="checkboxall"
+                  onclick="isChecked2()">
+               <p class="wrap_second_text_second">Kurka go'shti</p>
+               <input type="checkbox" name="checkbox" id="checkbox3" class="checkbox3" id="checkboxall"
+                  onclick="isChecked3()">
+               <p class="wrap_second_text_third">Zaytun</p>
+               <input type="checkbox" name="checkbox" id="checkbox4" class="checkbox4" id="checkboxall"
+                  onclick="isChecked4()">
+               <p class="wrap_second_text_fourth">Tuzlangan bodring</p>
+               <input type="checkbox" name="checkbox" id="checkbox5" class="checkbox5" id="checkboxall"
+                  onclick="isChecked5()">
+               <p class="wrap_second_text_fifth">Qo'ziqorin</p>
+               <input type="checkbox" name="checkbox" id="checkbox6" class="checkbox6" id="checkboxall"
+                  onclick="isChecked6()">
+               <p class="wrap_second_text_sixth">Qazi</p>
+
+               <h4 class="wrap_second_title_fourth">Qo'shimchalar</h4>
+
+               <input type="checkbox" name="checkbox" id="checkbox7" class="checkbox7" id="checkboxall"
+                  onclick="isChecked7()">
+               <p class="wrap_second_text_seventh">Achchiq</p>
+
+               <input type="checkbox" name="checkbox" id="checkbox8" class="checkbox8" id="checkboxall"
+                  onclick="isChecked8()">
+               <p class="wrap_second_text_eighth">Sosiska</p>
+            </div>
+            <div class="wrap_third">
+
+               <p class="wrap_third_text_first" id="option1">yupqa</p>
+               <p class="wrap_third_text_second" id="option2">o'rtacha</p>
+               <p class="wrap_third_text_third" id="option3">qalin</p>
+               <div class="wrap_fourth">
+                  <h4 class="wrap_fourth_title_first">Non:</h4>
+                  <h4 class="wrap_fourth_title_second">Kattaligi:</h4>
+               </div>
+               <div class="circle1">25cm</div>
+               <div class="circle2">30cm</div>
+               <div class="wrap_fifth">
+                  <h4 class="wrap_fifth_title_third">Ustida:</h4>
+                  <p class="wrap_fifth_text_first" id="pomidor">Pomidor</p>
+                  <p class="wrap_fifth_text_second">Kurka go'shti</p>
+                  <p class="wrap_fifth_text_third">Zaytun</p>
+                  <p class="wrap_fifth_text_fourth">Tuzlangan bodring</p>
+                  <p class="wrap_fifth_text_fifth">Qo'ziqorin</p>
+                  <p class="wrap_fifth_text_sixth">Qazi</p>
+                  <div class="wrap_sixth">
+                     <h4 class="wrap_fifth_title_fourth">Qo'shimcha:</h4>
+                  </div>
+                  <p class="wrap_fifth_text_seventh">Achchiq</p>
+                  <p class="wrap_fifth_text_eighth">Sosiska</p>
+               </div>
+               <div class="circle3">35cm</div>
+               <button class="wrap_third_button" id="button">Buyurtma berish</button>
+            </div>
+         </div>
+      </div>
+      <div class="wrap6">
+         <div class="wrap_seventh">
+            <button class="buuton_second" id="button2">Done</button>
+            <h4 class="wrap_seventh_title_first"></h4>
+            <h4 class="wrap_seventh_title_second"></h4>
+
+         </div>
+      </div>
+
+   </main>
+
+   <footer>
+      <div class="footer_container">
+         <h2 class="footer_logo">
+            PIZZA-UZ
+         </h2>
+      </div>
+   </footer>
+
+   <script src="./plugin.js"></script>
+   <script src="./script.js"></script>
+</body>
+</html>
